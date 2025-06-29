@@ -1,0 +1,23 @@
+{
+    "name": "City of Toronto Schedule Parser",
+    "description": "Base Level Extension",
+    "version": "1.0",
+    "manifest_version": 3,
+    "action": {
+      "default_popup": "popup/popup.html",
+      "default_icon": "images/hello_extensions.png"
+    },
+    "oauth2": {
+      "client_id": "319882244714-ilrh49b6r9vo5qas082sii8hctv6eh4j.apps.googleusercontent.com",
+      "scopes": [
+        "https://www.googleapis.com/auth/calendar"
+      ]
+    },
+    "permissions": [
+      "identity"
+    ],
+    "background": {
+      "service_worker": "background.js"
+    }
+  }
+  
