@@ -68,6 +68,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const scheduledata = identifiedRowSchedule;
     const hoursworked = identifiedRowSchedule[19];
 
+    
   });
 });
 
