@@ -6,7 +6,7 @@
 
   "action": {
     "default_popup": "popup/popup.html",
-    "default_icon": "resources/hello_extensions.png"
+    "default_icon": "resources/toronto_logo.png"
   },
 
   "background": { "service_worker": "sw.js" },   
