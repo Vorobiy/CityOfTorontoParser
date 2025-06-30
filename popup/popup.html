@@ -1,9 +1,5 @@
 <html>
-    <head>
-        <script src="https://cdn.sheetjs.com/xlsx-0.20.0/package/dist/xlsx.full.min.js"></script>
-        <script src="popup/popup.js"></script>
-        <script src="userAuthentication.js"></script>
-    </head>
+
   <body>
     <h1>City Of Toronto Parser</h1>
     <div>
@@ -11,8 +7,13 @@
         <input type="text" id="fname" name="fname"><br>
     </div>
     <div>
-        <input type="file" id="myFile" name="filename">
-        <input type="submit">
+        <input type="file" id="fileInput" accept=".xlsx" />
+        <input type="submit" id="submit">
     </div>
+    <div>
+        <output id="output"></output>
+    </div>
+      <script src="../resources/xlsx.full.min.js"></script>
+      <script src="../popup/popup.js"></script>
   </body>
 </html>
